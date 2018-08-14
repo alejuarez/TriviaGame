@@ -132,14 +132,15 @@ function showResults() {
     "</h2>";
 
   $("#content").empty();
+  $("#content").append("<h2>All Done!</h2>");
   $("#content").append(results);
-  $("#content").append(
-    "<br><button id='play'>Click here to play again</button>"
-  );
+  // $("#content").append(
+  //   "<br><button id='play'>Click here to play again</button>"
+  //  );
 
-  $(document).on("click", "#play", function() {
-    $("#content").empty();
-    initialize();
-    start();
-  });
+  // $(document).on("click", "#play", function() {
+  //    $("#content").empty();
+  //   initialize();
+  //   start();
+  // });
 }
