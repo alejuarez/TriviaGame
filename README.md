@@ -9,3 +9,5 @@ The game ends when the timer goes to zero or you have answered all the questions
 You can only select one option for each question.
 
 Good luck!
+
+Click here to play : https://alejuarez.github.io/TriviaGame/
